@@ -24,3 +24,17 @@ $ pip3 install flask && python3 server.py
   ...
 </head>
 ```
+
+EXPLICACIÓN :
+
+En head puse el link de google fonts y el de los iconos de font awesome.
+
+Puse un div general que contuviera todo el contenido del post y luego lo separé por partes (header, img, body).
+
+-header: aquí puse todo lo que iba antes de la imagen. Y lo volví a separar en distintos divs,uno para el icono del logo de html5, otro para el texto que acompaña al logo y en el último el icono de los tres puntos. Y en css con los márgenes y medidas de ancho y alto, lo ajusté para que se viera como en el ejemplo.
+
+-img: en este div puse la imagen con el mismo ancho que el div general para que se extendiera de lado a lado.
+
+-body: como en header, lo dividí en varios divs:
+uno para la línea donde solo hay iconos, que a su vez lo dividí en un div por cada icono; para en css poderlos editar más fácil. Y lo último, los dos <p>.
+
